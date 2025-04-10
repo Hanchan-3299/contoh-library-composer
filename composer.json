@@ -1,0 +1,19 @@
+{
+    "name": "devhanchan/libraryhello",
+    "description": "contoh library say hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Devhanchan\\Libraryhello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hanchan",
+            "email": "handikacp155@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
